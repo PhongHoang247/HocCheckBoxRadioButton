@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Những sở thích của bạn?"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android " />
+
+    <CheckBox
+        android:id="@+id/chkSwift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swift" />
+
+    <CheckBox
+        android:id="@+id/chkC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C  " />
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:onClick="XuLyXacNhanSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác Nhận" />
+
+    <TextView
+        android:id="@+id/txtSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mautxtSoThich"
+        android:hint="Các sở thích ở đây."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn bình chọn cho ai?"
+        android:textColor="@color/mautxtBinhChon"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radDoNamTrung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đỗ Nam Trung" />
+
+        <RadioButton
+            android:id="@+id/radTapCanBinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tập Cận Bình" />
+
+        <RadioButton
+            android:id="@+id/radHCM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hồ Chí Minh" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnBinhChon"
+        android:onClick="XuLyBinhChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bình Chọn" />
+
+    <TextView
+        android:id="@+id/txtKetQuaBinhChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/maunentxtKetQuaBinhChon"
+        android:hint="Kết quả bình chọn."
+        android:textSize="18sp" />
+</LinearLayout>

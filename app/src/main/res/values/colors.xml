@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mautxtSoThich">#00FF33</color>
+    <color name="mautxtBinhChon">#002FFF</color>
+    <color name="mautxtKetQuaBinhChon">#FF005D</color>
+    <color name="maunentxtKetQuaBinhChon">#3EE5FF</color>
+</resources>
